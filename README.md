@@ -1,6 +1,6 @@
 import-marc-into-dspace
 =======================
-1- check you mrc file
+1- check the marc file
 
 2- run mk2dc.pl to convert from mrc to dubline core 
 
