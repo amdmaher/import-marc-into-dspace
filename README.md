@@ -14,7 +14,7 @@ run this ./build.pl 762.xml
 
 4- now import records to dspace
 
-./dspace import -a -e amaher@kwareict.com -c [CollectionID] -s import -m mapfile
+./dspace import -a -e email@mail.com -c [CollectionID] -s import -m mapfile
 
 
 import marc into dspace
