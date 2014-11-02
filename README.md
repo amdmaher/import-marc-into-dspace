@@ -6,13 +6,16 @@ import-marc-into-dspace
 
 ./mk2dc.pl 762.mrc > 762.xml
 
-3- run build.pl to build dspace file folders
+3- create import dir
 
-create import dir 
+mkdir import
+
+4- run build.pl to build dspace file folders
+
 
 run this ./build.pl 762.xml
 
-4- now import records to dspace
+5- now import records to dspace
 
 ./dspace import -a -e email@mail.com -c [CollectionID] -s import -m mapfile
 
